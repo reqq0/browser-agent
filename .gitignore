@@ -1,0 +1,36 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local Python environments
+**/pw/
+.venv/
+venv/
+env/
+
+# Python caches and generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+screenshots/
+videos/
+traces/
+screenshot.png
+
+# Local tooling and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
