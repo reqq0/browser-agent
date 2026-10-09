@@ -19,6 +19,12 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
+*.log
+*.tmp
+*.bak
+*.sqlite
+*.sqlite3
+*.db
 
 # Playwright output
 test-results/
@@ -34,3 +40,11 @@ screenshot.png
 .idea/
 .DS_Store
 Thumbs.db
+.python-version
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
