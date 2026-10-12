@@ -13,6 +13,7 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+yt copy.py
 *.pyd
 .pytest_cache/
 .mypy_cache/
