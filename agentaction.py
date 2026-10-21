@@ -22,6 +22,6 @@ class Hover(BaseModel):
     actiontype: Literal['hover']='hover'
     element_id: int 
 class Response(BaseModel):
-    action: Union[Type,Navigate,Scroll,Done,Hover]
+    action: Union[Type,Navigate,Scroll,Done,Hover,Click]
     thought: str
 
